@@ -64,7 +64,7 @@
 
 ---
 # **Squad Demos**
-## **Thursday (08/18)**
+## **Thursday (01/18)**
 From 2:00pm-5:00pm
 
 ---
@@ -73,22 +73,22 @@ From 2:00pm-5:00pm
 ## **Friday (01/19)**
 | Student | Time |  
 |:-------------:   | :-------------: | 
-| Kora | 10:00am -10:05am |   
-| Barrett | 10:10am -10:15am |
-| Andrew | 10:20am -10:25am |
-| An | 10:30am -10:35am |
-| Michelle | 10:40am-10:45am |
-| Jake | 10:45am-10:50am |   
-| Rony | 10:55am -11:00am |
-| Lacey | 11:05am -11:10am |
-| Abi | 11:15am -11:20am |
-| Brad | 11:25am -11:30am |
-| Tim | 11:35am -11:40am |
-| Qian | 11:45am-11:50am |
-| Ritwick | 11:55am-12:00pm |   
-| Bao | 12:05pm -12:10pm |
-| Justin | 12:10pm -12:15pm |
-| Dakotah | 12:20pm -12:25pm |
-| Kris | 12:30pm -12:35pm |
-| Mimi | 12:50pm -12:55pm |
-| Margie | 1:00pm -1:05pm |
+| Kora | 2:00pm -2:05pm |   
+| Barrett | 2:10pm -2:15pm |
+| Andrew | 2:20pm -2:25pm |
+| An | 2:30pm -2:35pm |
+| Michelle | 2:40pm-2:45pm |
+| Jake | 2:50pm-2:55pm |   
+| Rony | 3:00pm-3:05pm |
+| Lacey | 3:10pm -3:15pm |
+| Abi | 3:20pm -3:25pm |
+| Brad | 3:30pm -3:35pm |
+| Tim | 3:40pm -3:45pm |
+| Qian | 3:50pm-3:55pm |
+| Ritwick | 4:00pm-4:05pm |   
+| Bao | 4:10pm -4:15pm |
+| Justin | 4:20pm -4:25pm |
+| Dakotah | 4:30pm -4:35pm |
+| Kris | 4:40pm -4:45pm |
+| Mimi | 4:50pm -4:55pm |
+| Margie | 4:55pm -5:00pm |

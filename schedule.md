@@ -17,7 +17,7 @@
 | Boshika-Jake | 10:40am -10:50am | Phil-Tim | 10:40am -10:50am |  
 | Boshika-Dakotah | 10:50am -11:00am | Phil-Andrew | 10:50am -11:00am |
 | Boshika-Barrett | 11:00am -11:10am  | Phil-Qian | 11:00am -11:10am |
-| Boshika-Brad | 11:10am -11:20am | | Phil-Michelle | 11:10am -11:20am |
+| Boshika-Brad | 11:10am -11:20am | Phil-Michelle | 11:10am -11:20am |
 
   
 ---

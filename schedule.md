@@ -31,7 +31,6 @@
 | Margie | 10:00am -10:40am |   
 | Bao | 11:00am -11:40am |
 | Ritwick | 12:00pm -12:40pm |
-
 | Abi | 2:00pm -2:40pm |
 | Brad | 3:00pm -3:40pm |
 
@@ -41,7 +40,6 @@
 | Kris | 10:00am -10:40am |
 | Kora | 11:00am -11:40am |
 | Rony | 12:00pm -12:40pm |
-
 | Michelle | 2:00pm -2:40pm |
 | An | 3:00pm -3:40pm |
 ---
@@ -53,7 +51,6 @@
 | Justin | 10:00am -10:40am |   
 | Jake | 11:00am -11:40am |
 | Andrew | 12:00pm -12:40pm |
-
 | Barrett | 2:00pm -2:40pm |
 
 ### *Students Pairing with Phil* 
@@ -62,7 +59,6 @@
 | Tim | 10:00am -10:40am |
 | Dakotah | 11:00am -11:40am |
 | Lacey | 12:00pm -12:40pm |
-
 | Qian | 2:00pm -2:40pm |
 | Mimi | 3:00pm -3:40pm |
 

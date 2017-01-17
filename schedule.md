@@ -1,8 +1,8 @@
 ### **Project Schedule**
 
-| Friday (01/13)         | Tuesday (01/17)         | Wednesday (01/18)                 | Thursday (01/19)         | Friday (01/20) | Saturday (12/17) | Sunday (12/18) | Monday (12/19) |
+| Friday (01/13)         | Tuesday (01/17)         | Wednesday (01/18)                 | Thursday (01/19)         | Friday (01/20) | 
 | :-------------: |:-------------:   | :-------------:     | :-------------:   | :-------------: | :-------------: | :-------------: |  :-------------: |
-| PROJECT KICKOFF | Morning: one-on-one check-ins(10 minutes/each student), Afternoon: TA-student pairing     | INSTRUCTOR-STUDENT PAIRING - See Schedule Below, ), Afternoon: TA-student pairing  | INSTRUCTOR-STUDENT PAIRING - See Schedule Below, ), Afternoon: TA-student pairing  | GUT CHECK- one-on-ones(10 minutes/each student), see student progress, and Squad presentations  |  KEEP WORKING ON THE PROJECT | KEEP WORKING | STUDENT PRESENTATIONS
+| PROJECT KICKOFF |10 minutes one-on-one check-ins | 40 minutes INSTRUCTOR-STUDENT PAIRING - See Schedule Below, )  | 40 minutes INSTRUCTOR-STUDENT PAIRING - See Schedule Below, ) Squad Demos | Student Presentations  |  
 
 ---
 

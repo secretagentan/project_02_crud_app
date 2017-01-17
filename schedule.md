@@ -11,15 +11,14 @@
 | Instructor-Student | Time | Instructor-Student | Time |  
 |:-------------: | :-------------: |:-------------: |:-------------: |
 | Boshika-Kris | 10:00am -10:10am | Phil-Margie | 10:00am -10:10am |  
-| Boshika- Bao | 10:10am -10:10am | Phil-Kora | 10:10am -10:20am |
+| Boshika- Bao | 10:10am -10:20am | Phil-Kora | 10:10am -10:20am |
 | Boshika-Ritwick | 10:20am -10:30am | Phil-Rony | 10:20am -10:30am |
-| Boshika-Michelle | 10:30am -10:40am | Phil-Abi | 10:30am -10:40am  |
-| Boshika-Justin | 10:40am -10:50am | Phil-An | 10:40am-10:50am  |
-| Boshika-Jake | 11:30am -11:40am | Phil-Tim | 11:30am -11:40am |  
-| Boshika-Dakotah | 11:40am -11:50am | Phil-Andrew | 11:40am -11:50am |
-| Boshika-Barrett | 11:50am -12:00pm  | Phil-Lacey | 11:50am -12:00pm |
-| Boshika-Brad | 12:00pm -12:10pm | Phil-Qian | 12:00pm -12:10pm |
-| Boshika-Mimi | 12:10pm -12:20pm | 
+| Boshika-Justin | 10:30am -10:40am | Phil-An | 10:30am-10:40am  |
+| Boshika-Jake | 10:40am -10:50am | Phil-Tim | 10:40am -10:50am |  
+| Boshika-Dakotah | 10:50am -11:00am | Phil-Andrew | 10:50am -11:00am |
+| Boshika-Barrett | 11:00am -11:10am  | Phil-Qian | 11:00am -11:10am |
+| Boshika-Brad | 11:10am -11:20am | | Phil-Michelle | 11:10am -11:20am |
+
   
 ---
 

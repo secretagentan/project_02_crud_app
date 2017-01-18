@@ -16,6 +16,7 @@ app.set('view engine', 'hbs');
 
 // MIDDLEWARE
 app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES
@@ -25,18 +26,18 @@ app.get('/', function(req, res, next) {
 
 app.get('/posts', function(req, res, next) {
   mongo.connect(url, function(err, db) {
-    db.collection('todos').find({}).toArray(function(err, docs) {
+    db.collection('todos').find({}).toArray( function(err, docs) {
       db.close();
       res.json({todos: docs});
+      // res.json();
     });
   });
 });
 
-
 app.post('/posts', function(req, res, next) {
-  console.log(req.body.message);
+  console.log('req.body.todo', req.body.todo);
   var todo = {
-    message: req.body.value
+    message: req.body.todo
   };
   mongo.connect(url, function(err, db) {
     db.collection('todos').insertOne(todo, function(err, result) {
@@ -51,6 +52,3 @@ var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log('Listening on port: ' + port);
 });
-
-
-

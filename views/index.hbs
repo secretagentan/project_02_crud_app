@@ -1,17 +1,26 @@
 <div id="container">
+
  <div class="showTodos">
   <h1> {{ title }} </h1>
   <hr>
-  <ul class="todos">
-   {{!-- <li> to-dos rendered here --}}
-  </ul>
+
+  {{!-- <template id="todos"> --}}
+    <ul class="todos">
+     {{!-- <li> to-dos rendered here --}}
+    {{!-- {{ #each todos }} --}}
+    {{!-- <li> to-dos rendered here --}}
+    {{!-- <li>{{ this }}</li> --}}
+    {{!-- {{ /each }} --}}
+    </ul>
+  {{!-- </template> --}}
+
  </div>
 
  <div class="addTodos">
   <h1> {{ header }} </h1>
   <hr>
-  <input type="text" class="new form-control" placeholder="Add to-do item">
+  <input type="text" class="new form-control" placeholder="Add to-do item" name='todo'>
   <button type="button" class="add btn btn-default btn-xs">Enter</button>
  </div>
-</div>
 
+</div>

@@ -1,4 +1,32 @@
 body {
-  background-color: salmon;
+  background-color: turquoise;
+  color: white;
+  margin: 20px;
+}
+h1 {
+  color: salmon;
+}
+div {
+  float: left;
+  border-radius: 6px;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.addTodos {
+  width: 300px;
+  min-height: 160px;
+}
+.showTodos {
+  width: 600px;
+  min-height: 400px;
+}
+input {
+  width: 200px;
+  border-radius: 4px;
+  margin: 2px;
+}
+button {
+  border-radius: 4px;
   color: white;
 }

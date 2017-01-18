@@ -19,8 +19,31 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES
-app.get('/', function(req, res, next){
+app.get('/', function(req, res, next) {
   res.render('index.hbs', {title: 'To-Do List', header: 'Add Tasks'});
+});
+
+app.get('/posts', function(req, res, next) {
+  mongo.connect(url, function(err, db) {
+    db.collection('todos').find({}).toArray(function(err, docs) {
+      db.close();
+      res.json({todos: docs});
+    });
+  });
+});
+
+
+app.post('/posts', function(req, res, next) {
+  console.log(req.body.message);
+  var todo = {
+    message: req.body.value
+  };
+  mongo.connect(url, function(err, db) {
+    db.collection('todos').insertOne(todo, function(err, result) {
+      db.close();
+      res.json(result);
+    });
+  });
 });
 
 // PORT

@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var bodyParser = require('body-parser');
 var hbs = require('express-handlebars');
 var mongo = require('mongodb').MongoClient;
+var url = process.env.MONGODB_URI || 'mongodb://localhost:27017/sandbox';
 
 var app = express();
 
@@ -23,7 +24,7 @@ app.get('/', function(req, res, next){
 });
 
 // PORT
-var port = 3000;
+var port = process.env.PORT || 3000;
 app.listen(port, function() {
   console.log('Listening on port: ' + port);
 });

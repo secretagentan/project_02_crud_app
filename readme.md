@@ -37,16 +37,16 @@ Build a web application using Node and Express that responds to HTTP Requests an
 - [x] Be deployed online and accessible to the publically-accessible
 
 #### Your repo MUST: ####
-[ ] Include wireframes that you designed during the planning process
-[ ] Include user stories
+- [ ] Include wireframes that you designed during the planning process
+- [ ] Include user stories
 
 #### Necessary Deliverables: ####
-[ ] A working full-stack application, built by you, hosted somewhere on the internet
-[x] A link to your hosted working app in the URL section of your Github repo
-[x] A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project. Commit early, commit often.
-[ ] A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
-[ ] Wireframes of your app, hosted somewhere & linked in your readme
-[ ] A link in your readme.md to the publically-accessible user stories you created
+- [ ] A working full-stack application, built by you, hosted somewhere on the internet
+- [x] A link to your hosted working app in the URL section of your Github repo
+- [x] A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project. Commit early, commit often.
+- [ ] A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
+- [ ] Wireframes of your app, hosted somewhere & linked in your readme
+- [ ] A link in your readme.md to the publically-accessible user stories you created
 
 #### Suggested Ways to Get Started
 

@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES
 app.get('/', function(req, res, next){
-  res.render('index.hbs', {title: 'Add To-Dos', header: 'To-Do List'});
+  res.render('index.hbs', {title: 'To-Do List', header: 'Add Tasks'});
 });
 
 // PORT

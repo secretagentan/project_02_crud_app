@@ -5,28 +5,34 @@ body {
 }
 h1 {
   color: salmon;
+  margin: 4px;
+  padding: 2px;
 }
 div {
   float: left;
   border-radius: 6px;
   background-color: white;
   padding: 10px;
-  margin: 10px;
 }
-.addTodos {
-  width: 300px;
-  min-height: 160px;
+#container {
+  width: 1000px;
+  margin-left: 200px;
 }
 .showTodos {
   width: 600px;
   min-height: 400px;
 }
+.addTodos {
+  width: 300px;
+  min-height: 160px;
+}
 input {
-  width: 200px;
-  border-radius: 4px;
-  margin: 2px;
+  width: 300px;
+  /*border-radius: 4px;*/
+  /*margin: 2px;*/
 }
-button {
-  border-radius: 4px;
-  color: white;
+.btn {
+  display: inline-block;
+  margin: 14px 0 14px 0;
 }
+

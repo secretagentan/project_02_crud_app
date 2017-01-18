@@ -1,13 +1,17 @@
-<div class="addTodos">
- <h1> {{ title }} </h1>
- <input class="new" type="text" placeholder="Add task">
- <button class="add" type="submit">Enter</button>
-</div>
+<div id="container">
+ <div class="showTodos">
+  <h1> {{ title }} </h1>
+  <hr>
+  <ul class="todos">
+   {{!-- <li> to-dos rendered here --}}
+  </ul>
+ </div>
 
-<div class="showTodos">
- <h1> {{ header }} </h1>
- <ul class="todos">
-  {{!-- <li> to-dos rendered here --}}
- </ul>
+ <div class="addTodos">
+  <h1> {{ header }} </h1>
+  <hr>
+  <input type="text" class="new form-control" placeholder="Add to-do item">
+  <button type="button" class="add btn btn-default btn-xs">Enter</button>
+ </div>
 </div>
 

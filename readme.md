@@ -1,6 +1,6 @@
 ## Project 2: Building Your First Full-stack Application
 
-#### Overview
+### Overview
 
 This second project is your first foray into building a full-stack application. 
 You'll be building a web application, which means you'll learn about what it takes 
@@ -18,11 +18,11 @@ will want to do with the app.
 Remember to keep things small and focus on mastering the fundamentals – 
 scope creep/feature creep is the biggest pitfall for any project!
 
-#### Technical Requirements
+### Technical Requirements
 
 Build a web application using Node and Express that responds to HTTP Requests and manipulates data.
 
-*Your application MUST*
+#### Your application MUST: ####
 [ ] Persist Data from the client
 [ ] Return data to the client
 [ ] Modify persisted data
@@ -36,11 +36,11 @@ Build a web application using Node and Express that responds to HTTP Requests an
 [x] Serve a favicon
 [x] Be deployed online and accessible to the publically-accessible
 
-*Your repo MUST*
+#### Your repo MUST: ####
 [ ] Include wireframes that you designed during the planning process
 [ ] Include user stories
 
-*Necessary Deliverables*
+#### Necessary Deliverables: ####
 [ ] A working full-stack application, built by you, hosted somewhere on the internet
 [x] A link to your hosted working app in the URL section of your Github repo
 [x] A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project. Commit early, commit often.
@@ -48,7 +48,7 @@ Build a web application using Node and Express that responds to HTTP Requests an
 [ ] Wireframes of your app, hosted somewhere & linked in your readme
 [ ] A link in your readme.md to the publically-accessible user stories you created
 
-__Suggested Ways to Get Started__
+#### Suggested Ways to Get Started
 
 - Plan
 - Write User stories
@@ -66,7 +66,7 @@ __Suggested Ways to Get Started__
 - Commit early, commit often.
 - Use git branching to try out ideas
 
-# Potential Project Ideas
+## Potential Project Ideas
 
 ### Personal Tracker
 

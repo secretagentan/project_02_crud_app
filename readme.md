@@ -23,18 +23,18 @@ scope creep/feature creep is the biggest pitfall for any project!
 Build a web application using Node and Express that responds to HTTP Requests and manipulates data.
 
 #### Your application MUST: ####
-[ ] Persist Data from the client
-[ ] Return data to the client
-[ ] Modify persisted data
-[ ] Destroy persisted data
-[ ] Respond to GET and POST requests
-[x] Serve static content
-[ ] Serve dynamic content
-[ ] Use a client-side templating library to render JSON from the server
-[x] Use a server-side templating library to render HTML as a response
-[x] Use a CSS framework
-[x] Serve a favicon
-[x] Be deployed online and accessible to the publically-accessible
+- [x] Persist Data from the client
+- [ ] Return data to the client
+- [ ] Modify persisted data
+- [ ] Destroy persisted data
+- [ ] Respond to GET and POST requests
+- [x] Serve static content
+- [ ] Serve dynamic content
+- [ ] Use a client-side templating library to render JSON from the server
+- [x] Use a server-side templating library to render HTML as a response
+- [x] Use a CSS framework
+- [x] Serve a favicon
+- [x] Be deployed online and accessible to the publically-accessible
 
 #### Your repo MUST: ####
 [ ] Include wireframes that you designed during the planning process

@@ -26,9 +26,10 @@ app.get('/', function(req, res, next) {
 
 app.get('/posts', function(req, res, next) {
   mongo.connect(url, function(err, db) {
-    db.collection('todos').find({}).toArray( function(err, docs) {
+    db.collection('todos').find({}).toArray( function(err, result) {
+      console.log(result);
       db.close();
-      res.json({todos: docs});
+      res.json({todos: result});
       // res.json();
     });
   });

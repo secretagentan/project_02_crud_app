@@ -23,6 +23,24 @@ $btn.click(function(evt) {
       console.log(todo);
       // $ul.append('<li>' + todo + '</li>');
       $input.focus();
+      getPosts();
     })
   }
 })
+
+function getPosts() {
+  $.get('/posts', function(res){
+    console.log(res);
+    renderList(res);
+  });
+}
+getPosts();
+
+function renderList(list) {
+  var htmlTemp = $('#todo-template').html();
+  var template = Handlebars.compile(htmlTemp); // returns a function
+  var html = template(list);
+  console.log(html);
+  $('.showTodos').html(html);
+};
+

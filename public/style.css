@@ -8,8 +8,8 @@ h1 {
   margin: 4px;
   padding: 2px;
 }
-div {
-  float: left;
+.section {
+/*  float: left;*/
   border-radius: 6px;
   background-color: white;
   padding: 10px;
@@ -21,10 +21,13 @@ div {
 .showTodos {
   width: 600px;
   min-height: 400px;
+  display: inline-block;
+  color: black;
 }
 .addTodos {
   width: 300px;
   min-height: 160px;
+  display: inline-block;
 }
 input {
   width: 300px;

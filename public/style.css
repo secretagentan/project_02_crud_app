@@ -37,9 +37,13 @@ li {
   font-size: 20px;
   line-height: 1;
   padding: 4px;
-  /*text-transform: capitalize;*/
   color: darkgray;
   list-style-type: none;
+  width: 500px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: capitalize;
 }
 form {
   display: inline-block;
@@ -60,5 +64,11 @@ form {
   color: gray;
   margin: 5px;
 }
-
+/*.update {
+  display: inline-block;
+  width: 400px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}*/
 

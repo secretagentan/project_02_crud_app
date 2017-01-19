@@ -69,7 +69,20 @@ app.get('/posts', function(req, res, next) {
 // **************
 // crUd - Update
 // **************
-
+app.post('/update', function(req, res, next) {
+  mongo.connect(url, function(err, db) {
+    var id = req.body.oid;
+    // console.log(id);
+    console.log(req.body);
+    var updatedDoc = {message: req.body.todo};
+    console.log(updatedDoc);
+    db.collection('todos').update({"_id": objectId(id)}, {$set: updatedDoc}, function(err, result) {
+      console.log("Item updated: " + id);
+      db.close();
+      res.redirect('/');
+    });
+  });
+});
 
 // **************
 // cruD - Delete
@@ -78,7 +91,7 @@ app.post('/delete/:id', function(req, res, next) {
   mongo.connect(url, function(err, db) {
     var id = req.params.id;
     db.collection('todos').deleteOne({"_id": objectId(id)}, function(err, result) {
-      console.log("Item deleted: " + id);
+      // console.log("Item deleted: " + id);
       db.close();
       res.redirect('/');
     });

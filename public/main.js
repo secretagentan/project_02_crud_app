@@ -45,12 +45,18 @@ function addToDo(evt) {
 // binds/delegates keypress to nested <span>
 $('.todo-list').delegate('span', 'keypress', function(evt){
   if (evt.which === 13 ) {
+    // prevents jumping to new line
     evt.preventDefault();
-    var spanText = $(this).text();
-    // console.log(spanText);
+    var $txt = $(this).text();
+    console.log($txt);
+    var oid = $(this).attr('oid');
+    console.log($(this).attr('oid'));
     // alert('enter key pressed on span');
-  }
-})
+    $.post('/update', { todo: $txt, oid: oid }, function(res) {
+      getPosts();
+    });
+  };
+});
 
 // UPDATE TO-DOS
 // $span.keydown(function(evt) {

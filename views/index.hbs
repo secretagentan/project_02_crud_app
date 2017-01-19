@@ -10,7 +10,7 @@
   <div class="sidebar section">
     <h1> {{ header }} </h1>
     <hr>
-    <input type="text" class="new form-control" placeholder="Add to-do item" name='todo'>
+    <input type="text" class="new form-control" placeholder="Add to-do item" name="todo">
     <button type="button" class="add btn btn-default btn-xs">Enter</button>
   </div>
 
@@ -21,7 +21,9 @@
   <ul>
   \{{# each todos}}
     <li><form action="/delete/\{{ _id }}" method="post"><button class="delete">x</button></form>
-    <form action="/edit/\{{ _id }}" method="post"><span class="update" contenteditable="true">\{{ message }}</span></form>
+{{!--     <form action="/update/\{{ this._id }}" method="post" name="update"> --}}
+    <span class="update" contenteditable="true" oid="\{{ _id }}">\{{ message }}</span>
+    {{!-- </form> --}}
     </li>
   \{{/each}}
   </ul>

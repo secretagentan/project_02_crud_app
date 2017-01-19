@@ -24,12 +24,12 @@ Build a web application using Node and Express that responds to HTTP Requests an
 
 #### Your application MUST: ####
 - [x] Persist Data from the client
-- [ ] Return data to the client
+- [x] Return data to the client
 - [ ] Modify persisted data
-- [ ] Destroy persisted data
-- [ ] Respond to GET and POST requests
+- [x] Destroy persisted data
+- [x] Respond to GET and POST requests
 - [x] Serve static content
-- [ ] Serve dynamic content
+- [x] Serve dynamic content
 - [ ] Use a client-side templating library to render JSON from the server
 - [x] Use a server-side templating library to render HTML as a response
 - [x] Use a CSS framework

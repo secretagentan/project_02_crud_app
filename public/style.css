@@ -27,6 +27,7 @@ h1 {
 .main {
   width: 640px;
   display: inline-block;
+  margin-left: 10px;
 }
 .sidebar {
   width: 330px;
@@ -34,17 +35,19 @@ h1 {
 }
 li {
   font-size: 20px;
-  line-height: 2;
+  line-height: 2.2;
   /*text-transform: capitalize;*/
   color: darkgray;
   list-style-type: none;
+}
+form {
+  display: inline-block;
 }
 .delete {
   margin-right: 40px;
   color: lightpink;
   background-color: white;
   border-style: none;
-  text-transform: lowercase;
 }
 .new {
   width: 300px;

@@ -20,7 +20,7 @@ $btn.click(function(evt) {
     $.post('/posts', { todo: todo}, function(res){
       // console.log(evt);
       // console.log(evt.target);
-      console.log(todo);
+      // console.log(todo);
       $input.focus();
       getPosts();
     })
@@ -28,8 +28,9 @@ $btn.click(function(evt) {
 })
 
 function getPosts() {
+  console.log('getPosts is running');
   $.get('/posts', function(res){
-    // console.log(res);
+    console.log("res=", res);
     renderList(res);
   });
 };
@@ -37,15 +38,13 @@ getPosts();
 
 function renderList(list) {
   var htmlTemp = $('#todo-template').html();
+  console.log(htmlTemp);
   var template = Handlebars.compile(htmlTemp); // returns a function
   var html = template(list);
   // console.log(html);
   $('.todo-list').html(html);
 };
 
-function removeItem(evt) {
-
-}
 
 
 

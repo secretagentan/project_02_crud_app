@@ -19,8 +19,8 @@
 {{!-- to-do list template --}}
 <template id="todo-template">
   <ul>
-  \{{#each todos}}
-    <li><form action="/data/:{{this._id}}/delete" method="post"><button class="delete" name="delete" value={{this._id}}>x</button>\{{ message }}</li>
+  \{{# each todos}}
+    <li><form action="/delete/\{{_id}}" method="post"><button class="delete">x</button></form>\{{ message }}</li>
   \{{/each}}
   </ul>
 </template>

@@ -41,6 +41,6 @@ function renderList(list) {
   var template = Handlebars.compile(htmlTemp); // returns a function
   var html = template(list);
   console.log(html);
-  $('.showTodos').html(html);
+  $('.todo-list').html(html);
 };
 

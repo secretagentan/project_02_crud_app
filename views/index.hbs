@@ -1,25 +1,26 @@
-<div id="container" class="section">
+<div class="container section">
 
-  <h1> {{ title }} </h1>
-  <hr>
+  <div class="main section">
+    <h1> {{ title }} </h1>
+    <hr>
+    <div class="todo-list">
+    </div>
+  </div>
 
- <div class="showTodos section">
- </div>
-
- <div class="addTodos section">
-  <h1> {{ header }} </h1>
-  <hr>
-  <input type="text" class="new form-control" placeholder="Add to-do item" name='todo'>
-  <button type="button" class="add btn btn-default btn-xs">Enter</button>
- </div>
+  <div class="sidebar section">
+    <h1> {{ header }} </h1>
+    <hr>
+    <input type="text" class="new form-control" placeholder="Add to-do item" name='todo'>
+    <button type="button" class="add btn btn-default btn-xs">Enter</button>
+  </div>
 
 </div>
 
-
-  <template id="todo-template">
-    <ul class="todos">
-    \{{#each todos}}
-    <li>\{{ message }}</li>
-    \{{/each}}
-    </ul>
-  </template>
+{{!-- to-do list template --}}
+<template id="todo-template">
+  <ul>
+  \{{#each todos}}
+  <li>\{{ message }} <span class="delete">x</span> </li>
+  \{{/each}}
+  </ul>
+</template>

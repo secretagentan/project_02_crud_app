@@ -20,7 +20,9 @@
 <template id="todo-template">
   <ul>
   \{{# each todos}}
-    <li><form action="/delete/\{{_id}}" method="post"><button class="delete">x</button></form>\{{ message }}</li>
+    <li><form action="/delete/\{{ _id }}" method="post"><button class="delete">x</button></form>
+    <form action="/edit/\{{ _id }}" method="post"><span class="update" contenteditable="true">\{{ message }}</span></form>
+    </li>
   \{{/each}}
   </ul>
 </template>

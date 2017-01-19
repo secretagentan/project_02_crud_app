@@ -38,6 +38,7 @@ function addToDo(evt) {
       $input.focus();
       getPosts();
     });
+  $input.val('');
   };
 };
 
@@ -46,8 +47,8 @@ $('.todo-list').delegate('span', 'keypress', function(evt){
   if (evt.which === 13 ) {
     evt.preventDefault();
     var spanText = $(this).text();
-    console.log(spanText);
-    alert('enter key pressed on span');
+    // console.log(spanText);
+    // alert('enter key pressed on span');
   }
 })
 

@@ -18,10 +18,9 @@ $btn.click(function(evt) {
   if (todo !== "") {
     // post request to /posts
     $.post('/posts', { todo: todo}, function(res){
-      console.log(evt);
-      console.log(evt.target);
+      // console.log(evt);
+      // console.log(evt.target);
       console.log(todo);
-      // $ul.append('<li>' + todo + '</li>');
       $input.focus();
       getPosts();
     })
@@ -30,17 +29,36 @@ $btn.click(function(evt) {
 
 function getPosts() {
   $.get('/posts', function(res){
-    console.log(res);
+    // console.log(res);
     renderList(res);
   });
-}
+};
 getPosts();
 
 function renderList(list) {
   var htmlTemp = $('#todo-template').html();
   var template = Handlebars.compile(htmlTemp); // returns a function
   var html = template(list);
-  console.log(html);
+  // console.log(html);
   $('.todo-list').html(html);
 };
+
+function removeItem(evt) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

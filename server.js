@@ -16,7 +16,7 @@ app.set('view engine', 'hbs');
 
 // MIDDLEWARE
 app.use(express.static(__dirname + '/public'));
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES

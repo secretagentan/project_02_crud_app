@@ -25,34 +25,36 @@ h1 {
   min-height: 700px;
 }
 .main {
-  width: 680px;
+  width: 640px;
   display: inline-block;
 }
 .sidebar {
-  width: 290px;
+  width: 330px;
   display: inline-block;
 }
 li {
   font-size: 20px;
   line-height: 2;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   color: darkgray;
   list-style-type: none;
 }
 .delete {
-  float: right;
   margin-right: 40px;
   color: lightpink;
+  background-color: white;
+  border-style: none;
   text-transform: lowercase;
 }
-input {
-  width: 280px;
+.new {
+  width: 300px;
+  margin: 5px;
 }
 .btn {
   display: inline-block;
   margin: 14px 0 14px 0;
   color: gray;
-  float: right;
+  margin: 5px;
 }
 
 

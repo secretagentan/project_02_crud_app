@@ -1,9 +1,14 @@
 body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
   background-color: turquoise;
   color: white;
   margin: 20px;
 }
 h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 46px;
+  font-weight: 700;
   color: salmon;
   margin: 4px;
   padding: 2px;
@@ -17,34 +22,37 @@ h1 {
   border-radius: 6px;
   width: 1000px;
   margin-left: 200px;
+  min-height: 700px;
 }
 .main {
-  width: 600px;
-  min-height: 400px;
+  width: 680px;
   display: inline-block;
 }
 .sidebar {
-  width: 300px;
-  min-height: 160px;
+  width: 290px;
   display: inline-block;
 }
 li {
+  font-size: 20px;
+  line-height: 2;
+  text-transform: capitalize;
   color: darkgray;
-  font-size: 16px;
   list-style-type: none;
 }
 .delete {
   float: right;
   margin-right: 40px;
   color: lightpink;
+  text-transform: lowercase;
 }
 input {
-  width: 300px;
+  width: 280px;
 }
 .btn {
   display: inline-block;
   margin: 14px 0 14px 0;
   color: gray;
+  float: right;
 }
 
 

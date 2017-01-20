@@ -2,7 +2,7 @@
 
 ## Overview
 
-**TO-DO LIST**
+**TASK TRACKER**
 - A full-stack to-do list application
 
 **Technologies Used**
@@ -19,7 +19,7 @@
 - :notebook: [Wireframes](https://sheltered-hamlet-13065.herokuapp.com/wireframes)
 
 **Hosted on the internet**
-- [Sheltered Hamlet](https://sheltered-hamlet-13065.herokuapp.com/)
+- [An's To-Do List](https://sheltered-hamlet-13065.herokuapp.com/)
 
 ## Specs & Deliverables 
 - [x] Persist Data from the client
@@ -36,7 +36,7 @@
 - [x] Be deployed online and accessible to the publically-accessible
 
 ## Approach
-```
+
 Since all the server-end material was difficult for me to grasp and digest during the short amount of time that we had to learn it, I decided to build a basic app that I already knew how to build and apply the back-end specs to it. 
 
 My biggest struggle was with figuring out which pieces of code pointed at what, and it made me very dizzy at many points along the way. I broke everything down into smaller pieces, and console.log'ed EVERYTHING, so that I could understand what each line of code was doing or returning. I Google'd A LOT and referred to the exercises for help. 
@@ -46,9 +46,10 @@ For my CSS framework, I selected Bootstrap since I had learned about it previous
 I used Handlebars as the templating library for both my server- and client-side rendering. Although I had some difficulty figuring it out at first, once I got the hang of it, it was fairly user-friendly.
 
 I was worried about not being able to complete this project in time, but by planning my days out and setting smaller milestones for myself, I was able to stay on schedule.  
-```
 
 ## Unsolved Problems
 - Removing focus highlight on the delete 'x' buttons
 - User login feature (nicety) 
 - Delay from the time enter key is pressed to when to-do items are rendered to page
+- When a list item spans multiple lines, the "bullet" (delete button) lines up with the bottom line rather than the top
+- Being able to articulate what my code does 

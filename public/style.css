@@ -5,6 +5,33 @@ body {
   color: white;
   margin: 20px;
 }
+header {
+  width: 1000px;
+  margin-left: 200px;
+}
+nav {
+  font-size: 20px;
+  float: right;
+  margin-bottom: 20px;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: gold;
+}
+.container {
+  border-radius: 6px;
+  width: 1000px;
+  margin-left: 200px;
+  min-height: 700px;
+}
 h1 {
   font-family: 'Josefin Slab', serif;
   font-size: 46px;
@@ -17,12 +44,6 @@ h1 {
   float: left;
   background-color: white;
   padding: 10px;
-}
-.container {
-  border-radius: 6px;
-  width: 1000px;
-  margin-left: 200px;
-  min-height: 700px;
 }
 .main {
   width: 640px;
@@ -48,11 +69,12 @@ li {
 form {
   display: inline-block;
 }
-.delete {
+.x-btn {
   margin-right: 40px;
   color: lightpink;
   background-color: white;
   border-style: none;
+  text-transform: lowercase;
 }
 .new {
   width: 300px;
@@ -63,6 +85,7 @@ form {
   margin: 14px 0 14px 0;
   color: gray;
   margin: 5px;
+  text-transform: capitalize;
 }
 /*.update {
   display: inline-block;

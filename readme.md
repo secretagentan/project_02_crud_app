@@ -25,12 +25,12 @@ Build a web application using Node and Express that responds to HTTP Requests an
 #### Your application MUST: ####
 - [x] Persist Data from the client
 - [x] Return data to the client
-- [ ] Modify persisted data
+- [x] Modify persisted data
 - [x] Destroy persisted data
 - [x] Respond to GET and POST requests
 - [x] Serve static content
 - [x] Serve dynamic content
-- [ ] Use a client-side templating library to render JSON from the server
+- [x] Use a client-side templating library to render JSON from the server
 - [x] Use a server-side templating library to render HTML as a response
 - [x] Use a CSS framework
 - [x] Serve a favicon
@@ -41,7 +41,7 @@ Build a web application using Node and Express that responds to HTTP Requests an
 - [ ] Include user stories
 
 #### Necessary Deliverables: ####
-- [ ] A working full-stack application, built by you, hosted somewhere on the internet
+- [x] A working full-stack application, built by you, hosted somewhere on the internet
 - [x] A link to your hosted working app in the URL section of your Github repo
 - [x] A git repository hosted on Github, with a link to your hosted project, and frequent commits dating back to the very beginning of the project. Commit early, commit often.
 - [ ] A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.

@@ -10,13 +10,6 @@ var $btn = $('.add');
 var $input = $('input');
 var $span = $('.update');
 
-
-// $span.bind('keypress', function(evt) {
-//     // $btn.trigger('keypress');
-//     // addToDo();
-//   };
-// });
-
 $(document).bind('keypress', function(evt) {
   if (evt.which === 13) {
     $btn.trigger('keypress');
@@ -48,22 +41,15 @@ $('.todo-list').delegate('span', 'keypress', function(evt){
     // prevents jumping to new line
     evt.preventDefault();
     var $txt = $(this).text();
-    console.log($txt);
+    // console.log($txt);
     var oid = $(this).attr('oid');
-    console.log($(this).attr('oid'));
+    // console.log($(this).attr('oid'));
     // alert('enter key pressed on span');
     $.post('/update', { todo: $txt, oid: oid }, function(res) {
       getPosts();
     });
   };
 });
-
-// UPDATE TO-DOS
-// $span.keydown(function(evt) {
-//   if (evt.which === 13) {
-//     alert('enter key pressed!');
-//   };
-// });
 
 // AJAX GET request to /posts and responds w/ data
 function getPosts() {
@@ -82,17 +68,6 @@ function renderList(list) {
   // console.log(html);
   $('.todo-list').html(html);
 };
-
-
-
-
-
-
-
-
-
-
-
 
 
 

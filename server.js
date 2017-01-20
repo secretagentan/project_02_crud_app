@@ -35,6 +35,14 @@ app.get('/', function(req, res, next) {
   res.render('index.hbs', {title: 'To-Do List :', header: 'Add Tasks'});
 });
 
+app.get('/userstories', function(req, res, next) {
+  res.render('stories.hbs', {title: 'User Stories :'});
+});
+
+app.get('/wireframes', function(req, res, next) {
+  res.render('wireframes.hbs', {title: 'Wireframes :'});
+});
+
 // **************
 // Crud - Create
 // **************
@@ -76,7 +84,7 @@ app.post('/update', function(req, res, next) {
     console.log(req.body);
     var updatedDoc = {message: req.body.todo};
     console.log(updatedDoc);
-    db.collection('todos').update({"_id": objectId(id)}, {$set: updatedDoc}, function(err, result) {
+    db.collection('todos').updateOne({"_id": objectId(id)}, {$set: updatedDoc}, function(err, result) {
       console.log("Item updated: " + id);
       db.close();
       res.redirect('/');

@@ -1,4 +1,4 @@
-console.log('hello from main.js');
+console.log('"haters gonna hate." - pusheen');
 
 // focus on input field on page load
 var $input = $('input');

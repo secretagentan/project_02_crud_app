@@ -36,7 +36,7 @@ app.get('/', function(req, res, next) {
 });
 
 app.get('/userstories', function(req, res, next) {
-  res.render('stories', {title: 'User Stories :'});
+  res.render('stories', {title: 'User Stories'});
 });
 
 app.get('/wireframes', function(req, res, next) {

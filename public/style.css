@@ -52,6 +52,9 @@ form {
   width: 500px;
   text-transform: capitalize;
 }
+.todos:focus {
+  outline: none;
+}
 .story {
   display: inline-block;
   width: 740px;

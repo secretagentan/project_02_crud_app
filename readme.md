@@ -48,8 +48,8 @@ I used Handlebars as the templating library for both my server- and client-side 
 I was worried about not being able to complete this project in time, but by planning my days out and setting smaller milestones for myself, I was able to stay on schedule.  
 
 ## Unsolved Problems
-- Removing focus highlight on the delete 'x' buttons
 - User login feature (nicety) 
 - Delay from the time enter key is pressed to when to-do items are rendered to page
 - When a list item spans multiple lines, the "bullet" (delete button) lines up with the bottom line rather than the top
+- Can't capitalize only the first letter of a list item without messing up edit feature
 - Being able to articulate what my code does 

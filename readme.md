@@ -57,4 +57,5 @@ I was worried about not being able to complete this project in time, but by plan
 - User login feature (nicety) 
 - Color Schemes (nicety)
 - Mobile Version 
+- Reorder list (drag & drop)
 

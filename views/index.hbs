@@ -1,21 +1,21 @@
 <div class="container section">
-
-  <div class="main section">
+  <div class="main">
     <h1> {{ title }} </h1>
+  </div>
+  <div class="sidebar">
+    <h1> {{ header }} </h1>
+  </div>
     <hr>
+  <div class="main section">
     <div class="todo-list">
     </div>
   </div>
-
   <div class="sidebar section">
-    <h1> {{ header }} </h1>
-    <hr>
     <img src="http://i.imgur.com/WHnuA2O.gif">
     <br>
-    <input type="text" class="new form-control" placeholder="Add to-do item" name="todo" maxlength="35">
+    <input type="text" class="new form-control" placeholder="Add to-do item" name="todo" maxlength="40">
     <button type="button" class="add btn btn-default btn-xs">Enter</button>
   </div>
-
 </div>
 
 <script src="main.js"></script>

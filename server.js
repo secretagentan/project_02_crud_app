@@ -32,7 +32,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // home page / default
 app.get('/', function(req, res, next) {
-  res.render('index', {title: 'To-Do List :', header: 'Add Tasks'});
+  res.render('index', {title: 'To-Do List :', header: 'Add Tasks :'});
 });
 
 app.get('/userstories', function(req, res, next) {

@@ -64,6 +64,12 @@ form {
   border-style: none;
   text-transform: lowercase;
 }
+.x-btn:hover {
+  color: turquoise;
+}
+.x-btn:focus {
+  outline: none;
+}
 .new {
   width: 300px;
   margin: 5px;
@@ -74,4 +80,15 @@ form {
   color: gray;
   margin: 5px;
   text-transform: capitalize;
+}
+.btn:hover {
+  color: white;
+  background-color: gold;
+  border-style: none;
+}
+.btn:focus {
+  color: white;
+  background-color: gold;
+  border-style: none;
+  outline: none;
 }

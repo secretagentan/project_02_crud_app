@@ -5,9 +5,22 @@ body {
   color: darkgray;
   margin: 20px;
 }
-header {
+footer {
   width: 1000px;
-  margin-left: 200px;
+  margin: 0 auto;
+  color: lightpink;
+  padding-bottom: 20px;
+}
+nav {
+  width: 500px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 0 20px;
 }
 .container {
   border-radius: 6px;

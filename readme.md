@@ -54,8 +54,9 @@ I was worried about not being able to complete this project in time, but by plan
 - Being able to articulate what my code does 
 
 ## Niceties / Next Steps
-- User login feature (nicety) 
-- Color Schemes (nicety)
+- User login Feature 
+- List Reordering (drag & drop)
+- Color Schemes
 - Mobile Version 
-- Reorder list (drag & drop)
+- Hamburger Menu
 

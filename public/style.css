@@ -9,7 +9,7 @@ body {
   border-radius: 6px;
   width: 1000px;
   margin-left: 200px;
-  min-height: 700px;
+  min-height: 720px;
 }
 h1 {
   font-family: 'Josefin Slab', serif;
@@ -104,8 +104,8 @@ footer {
   color: white;
   padding-bottom: 20px;
 }
-nav {
-  width: 500px;
+.links {
+  width: 560px;
   padding-left: 10px;
   margin: 0 auto;
 }

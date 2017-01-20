@@ -60,14 +60,23 @@ li {
   padding: 4px;
   color: darkgray;
   list-style-type: none;
+}
+form {
+  display: inline-block;
+}
+.todos {
+  display: inline-block;
   width: 500px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   text-transform: capitalize;
 }
-form {
+.story {
   display: inline-block;
+  width: 740px;
+  /*overflow: hidden;*/
+  white-space: wrap;
 }
 .x-btn {
   margin-right: 40px;

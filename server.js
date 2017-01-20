@@ -32,15 +32,15 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // home page / default
 app.get('/', function(req, res, next) {
-  res.render('index.hbs', {title: 'To-Do List :', header: 'Add Tasks'});
+  res.render('index', {title: 'To-Do List :', header: 'Add Tasks'});
 });
 
 app.get('/userstories', function(req, res, next) {
-  res.render('stories.hbs', {title: 'User Stories :'});
+  res.render('stories', {title: 'User Stories :'});
 });
 
 app.get('/wireframes', function(req, res, next) {
-  res.render('wireframes.hbs', {title: 'Wireframes :'});
+  res.render('wireframes', {title: 'Wireframes :'});
 });
 
 // **************

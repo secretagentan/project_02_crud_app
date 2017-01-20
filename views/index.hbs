@@ -23,7 +23,7 @@
   <ul>
   \{{# each todos}}
     <li><form action="/delete/\{{ _id }}" method="post"><button class="x-btn">x</button></form>
-    <span class="update" contenteditable="true" oid="\{{ _id }}">\{{ message }}</span>
+    <span class="todos update" contenteditable="true" oid="\{{ _id }}">\{{ message }}</span>
     </li>
   \{{/each}}
   </ul>

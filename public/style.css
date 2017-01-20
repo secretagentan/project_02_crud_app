@@ -60,6 +60,9 @@ form {
   width: 740px;
   white-space: wrap;
 }
+.story-pusheen {
+  float: right;
+}
 .x-btn {
   margin-right: 40px;
   color: lightpink;

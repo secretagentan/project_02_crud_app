@@ -52,8 +52,5 @@ I was worried about not being able to complete this project in time, but by plan
 - Color Schemes (nicety)
 - Delay from the time enter key is pressed to when to-do items are rendered to page
 - When a list item spans multiple lines, the "bullet" (delete button) lines up with the bottom line rather than the top
-<<<<<<< HEAD
 - Can't capitalize only the first letter of a list item without messing up edit feature
-=======
->>>>>>> refs/remotes/origin/master
 - Being able to articulate what my code does 

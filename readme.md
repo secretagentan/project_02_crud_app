@@ -2,7 +2,7 @@
 
 ## Overview
 
-**TO-DO LIST**
+**TASK TRACKER**
 - A full-stack to-do list application
 
 **Technologies Used**
